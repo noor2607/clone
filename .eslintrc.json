@@ -2,9 +2,7 @@
   "extends": ["next/core-web-vitals", "next/typescript"],
   "rules": {
     "no-useless-escape": "off",
-    "comma-dangle": "off",
-    "no-template-curly-in-string": "off",
-    "quotes": ["error", "double", { "avoidEscape": true }],
-    "semi": ["error", "always"]
+    "semi": "off",
+    "quotes": "off"
   }
 }
